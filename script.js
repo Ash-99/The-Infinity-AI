@@ -1,6 +1,6 @@
 // IMPORTANT: Replace this with the URL of your DEPLOYED backend API
 // For local testing, it would be 'http://127.0.0.1:5000/api/ask'
-const API_URL = 'https://your-backend-service-url.onrender.com/api/ask';
+const API_URL = 'https://the-infinity-ai.onrender.com/api/ask';
 
 async function askQuestion() {
     const questionInput = document.getElementById('questionInput');
