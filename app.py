@@ -18,7 +18,7 @@ load_dotenv()
 os.environ["GOOGLE_API_KEY"] = os.getenv("GOOGLE_API_KEY")
 
 # --- RAG Configuration ---
-VECTOR_STORE_PATH = "web_interface/vector_store"
+VECTOR_STORE_PATH = "vector_store"
 
 # Define the Prompt Template
 prompt_template = """
