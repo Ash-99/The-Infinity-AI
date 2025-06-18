@@ -168,7 +168,7 @@ button:active {
     min-height: 80px;
     white-space: pre-wrap;
     word-wrap: break-word;
-    font-size: 1.05em;
+    font-size: 0.75em;
     line-height: 1.6;
     color: var(--text-color);
     border: 1px solid var(--border-color);
