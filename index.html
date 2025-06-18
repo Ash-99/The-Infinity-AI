@@ -3,22 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Infinity 2025 AI Assistant</title>
+    <title>Infinity AI Assistant</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container">
-        <h1>The Infinity AI</h1>
-        (Developed by Akshit Sharma 12 A3)
-        <p>Ask me anything about the event!</p>
+        <div class="app-title-area">
+            <!-- <img src="infinitylogo-removebg-preview.png" alt="Infinity Logo" class="app-logo"> -->
+            <h2 class="app-title">The Infinity AI</h2>
+            <!-- <img src="infinitylogo-removebg-preview.png" alt="Infinity Logo" class="app-logo"> -->
+        </div>
+        
+        <p class="tagline">Ask me anything about the event!</p>
+
         <div class="input-area">
-            <input type="text" id="questionInput" placeholder="e.g., What is the dress code?">
+            <input type="text" id="questionInput" placeholder="e.g., What are the event timings?" autocomplete="off">
             <button onclick="askQuestion()">Ask</button>
         </div>
+
         <div class="result-area">
-            <h3>Answer:</h3>
+            <h3 class="answer-label">Answer:</h3>
             <div id="answer" class="loading"></div>
         </div>
+
+        <div class="theme-toggle-area">
+            <button onclick="toggleDarkMode()">Dark Mode</button>
+        </div>
+        <p class="developer-credit">Developed by Akshit Sharma, 12 'A3'</p>
     </div>
     <script src="script.js"></script>
 </body>
